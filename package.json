@@ -1,0 +1,27 @@
+{
+  "name": "lime",
+  "version": "1.0.0",
+  "description": "summer lime for koa2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon root.js"
+  },
+  "keywords": [
+    "koa2",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "hankins",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-register": "^6.26.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa2": "^2.0.0-alpha.7",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.3"
+  }
+}
